@@ -73,21 +73,5 @@ Response format: JSON object with success flag, global_averages (temperature and
 
 Key fields: global_averages.temperature is the historic mean used for z-score calculations. global_averages.stddev_temp is the historic standard deviation used for z-score calculations. cumulative_heat_risk is the average z-score for hot observations (frequency-weighted). heat_frequency is the proportion of observations where tract was above +0.5σ.
 
-Study Details
-
-Location: Manhattan, NYC (288 census tracts)
-Data Collection: 3x daily at 6am, 2pm, 10pm EST
-Temperature Source: OpenWeatherMap API
-Demographic Source: US Census 2020 (ACS 5-Year Estimates)
-Population Focus: Adults aged 65+ (vulnerable demographic)
-Spatial Resolution: Census tract level (approximately 4,000 residents per tract)
-Temporal Resolution: 3 observations per day (8-hour intervals)
-
-
-
-
-Full Research Paper: INSERT_LINK_TO_PUBLISHED_PAPER_OR_PREPRINT
-
-Contact
 
 Last Updated: January 2026
