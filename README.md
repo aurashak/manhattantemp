@@ -1,11 +1,5 @@
 Urban Heat/Cold Vulnerability Assessment System
 
-Real-time temperature monitoring and vulnerability analysis for census tract-level climate adaptation
-
-Full Research Paper: 
-
-Overview
-
 This system provides real-time assessment of heat and cold vulnerability across Manhattan's 288 census tracts by combining temperature monitoring (3x daily), demographic data (elderly population 65+), and statistical analysis (z-score deviation detection).
 
 Research Contributions:
@@ -89,25 +83,8 @@ Population Focus: Adults aged 65+ (vulnerable demographic)
 Spatial Resolution: Census tract level (approximately 4,000 residents per tract)
 Temporal Resolution: 3 observations per day (8-hour intervals)
 
-Technical Notes
 
-JavaScript (tempage.js): Calls get_latest_temperatures.php for current data. Calls get_risk_statistics.php for historic baseline and cumulative stats. Implements vulnerability scoring algorithm (60/40 weighting). Renders risk layers using Leaflet.js.
 
-PHP Files: Sanitized for public release (database credentials removed). Configure database connection before deployment. Requires MySQL database with temperature observations table.
-
-Data Quality: Outlier detection applied. Geographic boundary checking performed. Missing data handling implemented.
-
-Citation
-
-If you use this system in your research, please cite:
-
-@article{yourname2025temperature,
-  title={Urban Heat and Cold Vulnerability Assessment Using Real-Time Temperature Monitoring},
-  author={Your Name},
-  journal={Journal Name},
-  year={2025},
-  doi={YOUR_DOI}
-}
 
 Full Research Paper: INSERT_LINK_TO_PUBLISHED_PAPER_OR_PREPRINT
 
